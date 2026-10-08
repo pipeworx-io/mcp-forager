@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-forager",
+  "version": "0.1.0",
+  "description": "Forager MCP — wraps the Forager person-phone-lookup API (forager.ai)",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-forager": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "forager"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-forager.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d383ea459ad191df90f37038e90c1d9a793dacc104f996983aa112e155fbc8d5",
+    "sourceCommit": "e369dfedd93d5fcbf521281559a146302c14e1a0"
+  }
+}
