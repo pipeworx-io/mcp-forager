@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-forager",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Forager MCP — wraps the Forager person-phone-lookup API (forager.ai)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "forager",
     "gatewaySlug": "forager",
-    "sourceHash": "v1-3ac0a5dcbbd44a80d2faf2a20a3625fe0a7514855197822c94767a368dc79922",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-99281713d6f598157ac1001e7a131b785831a873c4debed12d28d4da498ef2d7",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
