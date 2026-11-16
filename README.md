@@ -4,7 +4,7 @@ Find a person's phone number from their LinkedIn profile URL, via Forager
 (forager.ai). Part of `enrich-waterfall`'s new `enrich_find_phone` finder
 rotation (fleet #2860).
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1865+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2006+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -20,7 +20,7 @@ key (D4).
 
 ## Data sources
 
-- `https://api-v2.forager.ai/api/{account_id}/datastorage/person_contacts_lookup/phone_numbers/`
+- Forager, person contacts lookup (phone numbers)
 
 ## Verification notes (fleet #2860, 2026-10-08, no vendor key held) — THIS PACK HAS THE WEAKEST CONFIRMATION IN THE BATCH
 
@@ -95,7 +95,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1865+ data sources. The
+Both URLs reach the same gateway and the same 2006+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
